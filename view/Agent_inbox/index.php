@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>inbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <h1 class="inbox">INBOX</h1>
+
+        <div id="chat">
+          <!-- HTML structure -->
+        <div id="messages">
+          <!-- Example message -->
+          <div class="message">
+              <p><strong>Sender:</strong> Message content</p>
+              <p class="timestamp">Sent on: January 1, 2024, 12:00 PM</p>
+          </div>
+        </div>
+    
+        <label for="">Agent</label>
+        <input type="text" id="sender" readonly>
+        <input type="text" id="messageInput" placeholder="Type your message" onkeydown="sendMessageOnEnter(event)">
+
+        <button onclick="sendMessage()">Send</button>
+        <button class="clear-chats" onclick="clearChats()">Clear Chats</button>
+    </div>
+    <script>
+        // Set the value of the sender input field to "Agent" when the page loads
+        window.onload = function() {
+            document.getElementById('sender').value = 'Agent';
+        };
+        </script>
+    <script src="script.js"></script>
+   
+    
+</body>
+</html>
