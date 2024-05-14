@@ -1,0 +1,36 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  color: dodgerblue;
+  margin: 0 auto;
+}
+
+fieldset {
+  width: 60%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  margin-bottom: 30px;
+}
+
+fieldset legend {
+  display: none;
+}
+
+fieldset td {
+  font-size: 22px;
+}
+
+table {
+  display: flex;
+}
