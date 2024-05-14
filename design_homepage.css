@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color:rgb(238, 239, 252);
+ 
+  
+    background-size:contain;
+    /* background-image: url("view/logos/background.jpg"); */
+}
+
+p {
+    margin: 0;
+}
+
+header #header #company img{
+    border-radius: 100px;
+}
+
+header {
+    /* background-color: rgb(35, 188, 248); */
+    background: url('view/images/property-4.jpg');
+
+    background-size: cover;
+    color: #333;
+    padding: 40px 25px;
+    border-radius: 10px;
+    border-bottom: black;
+    border-style:hidden;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+nav ul li a {
+    color: #333;
+    text-decoration:none;
+}
+
+
+
+nav ul li a:hover {
+    color: #0011ff;
+}
+
+#home{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+#properties{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#property {
+    margin-bottom: 30px;
+    text-align: right; 
+}
+
+#property h3,
+#property p {
+    text-align: right; 
+}
+
+
+#property {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#property #property-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#property-info p {
+    text-align: justify;
+}
+
+#property #property-img {
+    flex: 1;
+}
+#property #property-img2 {
+    flex: 1;
+}
+
+
+#property #img1 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+#property #img2 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+#facilities {
+    background-color:rgb(238, 239, 252);
+    padding: 50px 0;
+}
+
+#facilities h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.facility {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.facility img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.facility p {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+
+#achievements {
+    background-color:rgb(238, 239, 252);
+    padding: 50px 0;
+}
+
+#achievements h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.achievement {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.achievement img {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.achievement p {
+    font-size: 20px;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type:disc;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 30px;
+}
+
+nav ul li.right {
+    float: right;
+}
+
+
+#unique-selling-points {
+    background-color:rgb(238, 239, 252);
+    padding: 50px 0;
+}
+
+#unique-selling-points h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#unique-selling-points ul {
+    list-style-type:disc;
+    padding: 0;
+    margin: 50px;
+}
+
+#unique-selling-points ul li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+#about{
+    background-color: rgb(35, 188, 248);
+    box-shadow: 20px 20px 0px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px;
+} 
+
+.contact-us {
+    margin-bottom: 30px;
+}
+
+
+
