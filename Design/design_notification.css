@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f38b8b;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+legend {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e7b1b1;
+    
+}
+
+table th {
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+table td {
+    text-align: center;
+    background-color: #f3cccc;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+a.mark-as-read {
+    color: #27ae60;
+}
+
+a.mark-as-read:hover {
+    color: #219653;
+}
+
+a.mark-all-as-read {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.mark-all-as-read:hover {
+    background-color: #2980b9;
+}
+
+.link-group {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link-group a {
+    margin-right: 20px;
+}
+
+.link-group a:last-child {
+    margin-right: 0;
+}

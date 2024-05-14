@@ -1,0 +1,88 @@
+body {
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    background-color:rgb(154, 196, 216);
+    margin: 0;
+    padding: 0;
+}
+h1{
+
+    color : #ddd;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset{
+border: none;
+
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(154, 196, 216);
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 10px 20px;
+    background-color :cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="submit"]{
+
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

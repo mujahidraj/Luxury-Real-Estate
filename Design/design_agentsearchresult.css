@@ -1,0 +1,32 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #54e26c;
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    margin: 50px auto;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-style: hidden;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.agent-table {
+    width: 100%;
+    border-collapse:separate;
+    border: 1px solid #ddd;
+}
+
+.agent-table th, .agent-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

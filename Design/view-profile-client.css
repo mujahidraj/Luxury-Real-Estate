@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+  font-size: 18px;
+  background-color: azure;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  width: 30%;
+  margin: 0 auto;
+
+  background-color: aliceblue;
+
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+fieldset:hover {
+  border: 1px solid dodgerblue;
+}
+
+.legend-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.btn-submit, .btn {
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-submit:hover, .btn:hover {
+  background-color: rgba(30, 143, 255, 0.9);
+}
+
+.btn-wrapper {
+  width: 32.5%;
+  margin: 0 auto;
+}
+
